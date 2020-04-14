@@ -1,0 +1,63 @@
+{
+  "$id": "promotion",
+  "$schema": "https://schema.yext.com/config/km/custom-field-type/v1",
+  "displayName": "Promotion",
+  "apiName": "c_promotion",
+  "description": "",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "title",
+          "displayName": "Title",
+          "isRequired": false,
+          "typeId": "type.string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE"
+            }
+          }
+        },
+        {
+          "name": "photo",
+          "displayName": "Photo",
+          "isRequired": false,
+          "typeId": "type.image",
+          "type": {
+            "imageType": {
+              "isSimpleImage": true,
+              "minSize": {
+                "width": 0,
+                "height": 0
+              },
+              "unconstrainedAspectRatioAllowed": true,
+              "noAllowedAspectRatios": true
+            }
+          }
+        },
+        {
+          "name": "description",
+          "displayName": "Description",
+          "isRequired": false,
+          "typeId": "type.string",
+          "type": {
+            "stringType": {
+              "stereotype": "MULTILINE"
+            }
+          }
+        },
+        {
+          "name": "url",
+          "displayName": "URL",
+          "isRequired": false,
+          "typeId": "type.string",
+          "type": {
+            "stringType": {
+              "stereotype": "URL"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

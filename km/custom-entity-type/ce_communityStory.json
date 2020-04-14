@@ -1,0 +1,67 @@
+{
+  "$id": "ce_communityStory",
+  "$schema": "https://schema.yext.com/config/km/custom-entity-type/v1",
+  "apiName": "ce_communityStory",
+  "enabled": true,
+  "entry": [
+    {
+      "id": "entity.landing_page_url",
+      "required": false
+    },
+    {
+      "id": "event.organizer_email",
+      "required": false
+    },
+    {
+      "id": "location.business_description",
+      "required": false
+    },
+    {
+      "id": "location.business_name",
+      "required": true
+    },
+    {
+      "id": "goal",
+      "required": false
+    },
+    {
+      "id": "localNonProfits",
+      "required": false
+    },
+    {
+      "id": "primaryCTA",
+      "required": false
+    },
+    {
+      "id": "promotingEvents",
+      "required": false
+    },
+    {
+      "id": "restaurantPromotions",
+      "required": false
+    },
+    {
+      "id": "theme",
+      "required": false
+    },
+    {
+      "id": "location.folder_location",
+      "required": false
+    },
+    {
+      "id": "location.labels",
+      "required": false
+    },
+    {
+      "id": "location.store_id",
+      "required": true
+    },
+    {
+      "id": "location.youtube_videos",
+      "required": false
+    }
+  ],
+  "description": "This is to highlight local initiatives Turtlehead Tacos is doing.",
+  "displayName": "Community Story",
+  "pluralDisplayName": "Community Stories"
+}
